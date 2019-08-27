@@ -1,0 +1,259 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+
+\fontfamily{georgia}\selectfont  % CHANGE FONT STYLE to GEORGIA
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{0pt}\scshape\raggedright\large % was -4 instead of 0
+}{}{0em}{}[\color{black}\titlerule \vspace{1pt}] % *** THIS LAST THING IS WHERE YOU CAN CHANGE THE VERTICAL LINE SPACING ***
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-1.5pt} % *** THIS IS WHERE YOU CAN CHANGE THE VERTICAL LINE SPACING BETWEEN ITEMS ***
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\center{ \textbf{\Huge Hyung-Kwon Ko} }
+
+\center{ \it{\href{mailto:hkko@hcil.snu.ac.kr}{hkko@hcil.snu.ac.kr}}  $ \ \cdot \ $ \href{https://hyungkwonko.info}{https://hyungkwonko.info} }
+
+\vspace{-2pt}
+
+%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%  \it{\href{hkko@hcil.snu.ac.kr}{hkko@hcil.snu.ac.kr}} & \href{https://hyungkwonko.info/}{https://hyungkwonko.info/}\\
+%\end{tabular*}
+
+
+%--------INTERESTS------------
+\section{Interests}
+  \resumeSubHeadingListStart
+    \item[-]{Information visualization \& information geometry for knowledge discovery}
+    \setlength\itemsep{0.0em}
+    \item[-]{Data dimensionality reduction and its visualization with a firm background of mathematical knowledge}
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Seoul National University}{Seoul, Republic of Korea}
+      {M.S. student in Computer Science and Engineering (Advisor: Prof. Jinwook Seo)}{Sep 2019 - present}
+    \resumeSubheading
+      {Hanyang University}{Seoul, Republic of Korea}
+      {B.S. in Mathematics, Minor in Industrial Engineering}{Mar 2014 - Aug 2019}
+%      {B.S. in Mathematics, Minor in Industrial Engineering;  Total GPA of 3.52/4.5}{Mar 2014 -- present}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Human-computer Interaction Laboratory}{Seoul, Republic of Korea}
+      {Laboratory of professor Jinwook Seo at Seoul National University, Undergraduate intern}{Mar 2019 - Aug 2019}
+
+%        \begin{itemize}
+%    	\setlength\itemsep{0em}
+%      	{\bf{ \small { \item[-] Went through HCI team project}}}
+%	\begin{itemize}
+%        \setlength\itemsep{0em}
+%      	\small { \item[-] Research topic: Personal preference of Youtube content depending on one's time and place }
+%      	\end{itemize}
+%      	\end{itemize}
+
+%    \setlength\itemsep{-0.3em}
+    \resumeSubheading
+      {LG Electronics}{Seoul, Republic of Korea}
+      {Home electronics company, Cloud center, Service development team, Intern}{Jan 2019 - Feb 2019}
+
+%        \begin{itemize}
+%      	{\bf{ \small { \item[-] Worked on data mining project in customer relationship management(CRM) for sales promotion}}}
+%        \begin{itemize}
+%        \setlength\itemsep{0em}
+%      	\small { \item[1)] a }
+%     	\end{itemize}
+%      	\end{itemize}
+
+%    \setlength\itemsep{-0.3em}
+    \resumeSubheading
+      {Wesley Quest}{Seoul, Republic of Korea}
+      {Strategic consulting firm, Big data team, Research associate}{Jun 2018 - Aug 2018}
+
+%        \begin{itemize}
+%      	{\bf{ \small { \item[-] Participated in two big data projects. Made deep-learning based prediction model using Python }}}
+%        \begin{itemize}
+%        \setlength\itemsep{0em}
+%      	\small { \item[1)] Improvement of the management system and air quality in Seoul Metro (Client: Seoul Digital Foundation) }
+%      	\small { \item[2)] Development of a forecasting model for industrial accident compensation (Client: Korea Workers’ Compensation and Welfare Service) }
+%      	\end{itemize}
+%      	\end{itemize}
+
+%    \setlength\itemsep{-0.3em}
+    \resumeSubheading
+      {Probability and Statistical Modeling Laboratory}{Seoul, Republic of Korea}
+      {Laboratory of professor Suk-Joo Bae at Hanyang University, Undergraduate intern}{Mar 2017 - Nov 2017}
+
+%        \begin{itemize}
+%      	{\bf{ \small { \item[-] Participated in laboratory seminar with senior students weekly}}}
+%      	\end{itemize}
+
+  \resumeSubHeadingListEnd
+
+%--------AWARDS------------
+\section{Awards}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {3rd place in Big Contest}{}
+      {National Information Society Agency and Korea Bigdata Forum}{Aug 2018 - Oct 2018}
+%        \begin{itemize}
+%    \setlength\itemsep{0.5em}
+%    \setlength\itemsep{-0.3em}
+%      	\item[-] Developed `Financial Information Index for Individual User' with Shinhan Bank's customer data
+%      	\end{itemize}
+
+    \resumeSubheading
+      {\underline{2nd Place in Artificial Intelligence Novel Competition}}{}
+      {KT and KOCCA}{Mar 2018 - Aug 2018}
+%        \begin{itemize}
+%    \setlength\itemsep{0.5em}
+%    \setlength\itemsep{-0.3em}
+%      	\item[-] Made deep learning-based Korean sentence recommender which uses BiLSTM and Doc2Vec algorithm
+%      	\item[-] Received an opportunity to participate in KT's next project and 20,000,000 KRW of prize money
+%      	\end{itemize}
+      	
+    \resumeSubheading
+      {2nd Place in Academical team research}{}
+      {Natural Science college of Hanyang University}{Mar 2017 - Nov 2017}
+%        \begin{itemize}
+%    \setlength\itemsep{0.5em}
+%    \setlength\itemsep{-0.3em}
+%      	\item[-] Predicted the number of visitors of children's grand park with regression, SVR and time series model
+%      	\end{itemize}
+
+  \resumeSubHeadingListEnd
+
+
+%--------EXTRACURRICULAR ACTIVITIES------------
+%\section{Extracurricular Activities}
+%  \resumeSubHeadingListStart
+%
+%    \resumeSubheading
+%      {Korea Organ Donor Program Student Ambassador (SAVE9)}{}
+%      {Ambassador of the organ donating program}{May 2015 - Aug 2015}
+
+%    \resumeSubheading
+%      {HY-Ace Student Ambassador}{}
+%      {Promoter of the ACE national subsidy programs}{Apr 2015 - Jun 2015}
+
+%  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item[-]{
+      \textbf{Languages}{: Python(tensorflow, keras), R, C/C++, JavaScript(node, d3.js), Matlab, SQL}
+    }
+    \item[-]{
+      \textbf{Technologies \& Tools}{: git, vim, AWS EC2, \LaTeX}
+    }
+  \resumeSubHeadingListEnd
+
+
+%--------VOLUNTEER EXPERIENCE------------
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {The Actors Theatre Workshop}{New York, NY, USA}
+    {Nonprofit organization, Intern}{Mar 2016 - Aug 2016}
+
+%      \begin{itemize}
+%  	\setlength\itemsep{0em}
+%    	{\bf{ \small { \item[-] Participated in a social project(Builders of the New World) as a main staff}}}
+%      \begin{itemize}
+%      \setlength\itemsep{0em}
+%    	\small { \item[-] Managed human resources, crowdfunding tasks and donations for the program }
+%	\end{itemize}
+%    	\end{itemize}
+  \resumeSubHeadingListEnd
+
+
+%-----------MILITARY SERVICE-----------------
+\section{Military Service}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Transferred from active service to first reserve}{}
+      {Republic of Korea Army, 11th Division, Administrative Clerk}{Jun 2011 - Mar 2013}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

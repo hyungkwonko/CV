@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.23)  27 AUG 2019 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.23)  28 AUG 2019 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,7 +241,7 @@ LaTeX Font Info:    No file T1georgia.fd. on input line 24.
 LaTeX Font Warning: Font shape `T1/georgia/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 24.
 
-No file hkko-cv.aux.
+(./hkko-cv.aux)
 \openout1 = `hkko-cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -258,7 +258,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
-(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen114
@@ -285,9 +285,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 80.
 LaTeX Info: Redefining \pageref on input line 80.
 LaTeX Info: Redefining \nameref on input line 80.
+
+(./hkko-cv.out) (./hkko-cv.out)
 \@outlinefile=\write3
 \openout3 = `hkko-cv.out'.
 
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 85.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -322,40 +329,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
 (./hkko-cv.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package rerunfilecheck Info: File `hkko-cv.out' has not changed.
+(rerunfilecheck)             Checksum: 97372572048AC50E0C01B9A0D5A4A352;333.
 
-
-Package rerunfilecheck Warning: File `hkko-cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `hkko-cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  97372572048AC50E0C01B9A0D5A4A352;333.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 85 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 6692 strings out of 492609
- 95514 string characters out of 6132818
- 206954 words of memory out of 5000000
- 10552 multiletter control sequences out of 15000+600000
- 12513 words of font info for 34 fonts, out of 8000000 for 9000
+ 6724 strings out of 492609
+ 96253 string characters out of 6132818
+ 207058 words of memory out of 5000000
+ 10574 multiletter control sequences out of 15000+600000
+ 12827 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,295b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/
-texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/texmf-dist
-/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/cm-super/sfcc1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
-cm-super/sfrm0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/s
-frm1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1000.pf
-b><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on hkko-cv.pdf (1 page, 138396 bytes).
+ 28i,11n,43p,302b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+1.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2019/texmf-dist/fonts
+/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-sup
+er/sfti1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt109
+5.pfb>
+Output written on hkko-cv.pdf (1 page, 146012 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,8 +20,9 @@
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
 
-
-\fontfamily{georgia}\selectfont  % CHANGE FONT STYLE to GEORGIA
+\usepackage{merriweather}
+\usepackage[T1]{fontenc}
+% \fontfamily{georgia}\selectfont  % CHANGE FONT STYLE to GEORGIA
 
 
 % Adjust margins
@@ -35,7 +36,7 @@
 %\fancyfoot[R]{\thepage}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot[C]{\thepage \hspace*{0.0001\textwidth} / 2} % \fancyhead[LE,RO]{Overleaf} will print the text "Overleaf" on the Left side of the header for Even pages, and the Right side for Odd pages. 위에 textwidth로 margin 넣었기 때문에 밑으로 옮겼음.
-\fancyfoot[R]{\small{Last updated: May 6, 2020}}
+\fancyfoot[R]{\small{Last updated: March 12, 2021}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -49,7 +50,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{2pt}\scshape\raggedright\large % was -4 instead of 2 *** THIS LAST THING IS WHERE YOU CAN CHANGE THE VERTICAL LINE SPACING ***
+  \vspace{2.0pt}\scshape\raggedright\large % was -4 instead of 2 *** THIS LAST THING IS WHERE YOU CAN CHANGE THE VERTICAL LINE SPACING ***
 }{}{0em}{}[\color{black}\titlerule \vspace{0pt}] % 
 
 %-------------------------
@@ -65,7 +66,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-1.5pt} % *** THIS IS WHERE YOU CAN CHANGE THE VERTICAL LINE SPACING BETWEEN ITEMS ***
+    \end{tabular*}\vspace{0.0pt} % *** THIS IS WHERE YOU CAN CHANGE THE VERTICAL LINE SPACING BETWEEN ITEMS was -1.5 but changed to 0.0***
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -89,7 +90,7 @@
 %----------HEADING-----------------
 \center{ \textbf{\Huge Hyung-Kwon Ko} }
 
-\center{ \texttt{{\href{mailto:hkko@hcil.snu.ac.kr}{email:hkko@hcil.snu.ac.kr}}  $ \cdot $ \href{https://hyungkwonko.info}{website:hyungkwonko.info} }
+\center{ \texttt{{\href{mailto:hkko@hcil.snu.ac.kr}{email:hyungkwonko@gmail.com}}  $ \cdot $ \href{https://hyungkwonko.info}{website:hyungkwonko.info} }
 
 \vspace{-5pt}
 
@@ -101,9 +102,9 @@
 %--------INTERESTS------------
 \section{Interests}
   \resumeSubHeadingListStart
-    \item[-]{Nonlinear Dimensionality Reduction Techniques \& Metric Learning}
+    \item[-]{Human-centered AI/ML Systems \& Generative Models}
     \setlength\itemsep{0.0em}
-    \item[-]{Information Visualization for Knowledge Discovery  \& Progressive Visual Analytics}
+    \item[-]{Information Visualization \& Nonlinear Dimensionality Reduction Techniques}
   \resumeSubHeadingListEnd
 
 
@@ -125,7 +126,8 @@
   \resumeSubHeadingListStart
     \item{\textbf{\textit{Peer-reviewed conferences}}}
   \publicationStart
-    \item[{[C1]}]{ \textbf{Hyung-Kwon Ko}, Jaemin Jo, and Jinwook Seo, ``Progressive Uniform Manifold Approximation and Projection,'' in \textit{Proceedings of the EuroVis 2020: Eurographics/IEEE-VGTC Symposium on Visualization}, 2020.}
+    \item[{[C2]}]{ Seokweon Jung, Kiroong Choe, Seokhyeon Park, \textbf{Hyung-Kwon Ko}, Youngtaek Kim, and Jinwook Seo, ``Mixed-Initiative Approach to Extract Data from Pictures of Medical Invoice,'' \textit{IEEE Pacific Visualization Symposium (PacificVis)}, to appear, 2021.}
+    \item[{[C1]}]{ \textbf{Hyung-Kwon Ko}, Jaemin Jo, and Jinwook Seo, ``Progressive Uniform Manifold Approximation and Projection,'' \textit{EuroVis 2020: Eurographics/IEEE-VGTC Symposium on Visualization}, 2020.}
 %    \setlength\itemsep{0.5em}
 %    \item[{[C1]}]{ \underline{Hyung-Kwon Ko}, Jaemin Jo, and Jinwook Seo. (2020) ``Progressive Uniform Manifold Approximation and Projection''. In \textit{EuroVis} (Short).}
   \publicationEnd
@@ -241,10 +243,10 @@
 \section{Programming Skills}
   \resumeSubHeadingListStart
     \item[-]{
-      \textbf{Languages}{: Python(Tensorflow, Keras), R, C/C++, JavaScript(Angular, Node, D3.js), Matlab, SQL}
+      \textbf{Languages}{: Python(PyTorch), R, C/C++, JavaScript(Svelte, Node, D3.js)}
     }
     \item[-]{
-      \textbf{Technologies \& Tools}{: git, vim, AWS EC2, \LaTeX}
+      \textbf{Technologies \& Tools}{: Git, Vim, AWS EC2, \LaTeX}
     }
   \resumeSubHeadingListEnd
 
@@ -254,12 +256,12 @@
   \resumeSubHeadingListStart
   \resumeSubheading
     {External reviewer}{}
-    {IEEE PacificVis (paper)}{2019}
+    {IEEE PacificVis (paper)}{2020-2021}
   \resumeSubheading
     {The Actors Theatre Workshop}{New York, NY, USA}
     {Nonprofit organization, Intern}{Mar 2016 - Aug 2016}
   \resumeSubheading
-    {Republic of Korea Army}{Hongcheon-gun, Gangwon-do, Republic of Korea}
+    {Republic of Korea Army}{Gangwon-do, Republic of Korea}
     {11th Division, Administrative Clerk}{Jun 2011 - Mar 2013}
   \resumeSubHeadingListEnd
 

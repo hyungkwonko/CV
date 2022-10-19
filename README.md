@@ -1,1 +1,1 @@
-Modified by me based on what is written [here](https://github.com/sb2nov/resume) by [Sourabh Bajaj](https://sourabhbajaj.com/).
+Customized after referring to Professor Eun Kyoung Choe's CV [here](https://terpconnect.umd.edu/~choe/).

@@ -1,1 +1,1 @@
-Customized after referring to Professor Eun Kyoung Choe's CV [here](https://terpconnect.umd.edu/~choe/).
+Customized based on Professor Eun Kyoung Choe's [CV](https://terpconnect.umd.edu/~choe/).
